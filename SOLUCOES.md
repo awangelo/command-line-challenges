@@ -18,3 +18,4 @@
 18. ls -l
 19. echo "foobar123" >> restricted.txt
 20. ./hello_executable
+21. chmod +x challenge_20 && ./challenge_20
