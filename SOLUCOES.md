@@ -32,3 +32,4 @@
 32. echo "Hello" && sleep 5 && echo "world"
 33. dd if=/dev/zero of=zeros_1MB.bin bs=1M count=1
 34. dd if=/dev/urandom of=random_2MB.bin bs=1M count=2
+35. wc -l ../README.txt
