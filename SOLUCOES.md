@@ -28,3 +28,4 @@
 28. grep -r "You found the needle in the haystack" bunch_of_files/
 29. head -n 25 people.csv
 30. tail -n 25 people.csv
+31. diff greeting1.txt greeting2.txt
