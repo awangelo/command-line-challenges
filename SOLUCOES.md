@@ -27,3 +27,4 @@
 27. uname -r
 28. grep -r "You found the needle in the haystack" bunch_of_files/
 29. head -n 25 people.csv
+30. tail -n 25 people.csv
