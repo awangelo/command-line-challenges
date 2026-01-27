@@ -35,3 +35,4 @@
 35. wc -l ../README.txt
 36. tac ../README.txt
 37. cut -d ',' -f 2 people.csv
+38. cut -d ',' -f 2 people.csv | sort | uniq | wc -l
