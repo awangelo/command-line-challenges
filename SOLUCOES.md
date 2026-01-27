@@ -24,3 +24,4 @@
 24. date
 25. ps aux
 26. nproc
+27. uname -r
