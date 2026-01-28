@@ -44,3 +44,4 @@
 44. find . -mindepth 1 -maxdepth 1 -type d | wc -l
 45. find . -type f -name "*deleteme*" -delete
 46. sed -i 's/old/new/' $(grep -rl ...)
+47. sed 's/,/|/g' people.csv > people_pipe.csv
