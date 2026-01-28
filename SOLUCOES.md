@@ -39,3 +39,4 @@
 39. tail -n +2 people.csv | cut -d ',' -f 2 | sort | uniq | wc -l
 40. sed 1d people.csv | cut -d ',' -f 2 | sort | uniq | wc -l
 41. time ... && time ...
+42. cut -d ',' -f 1 people.csv | grep "Josiah" | wc -l
