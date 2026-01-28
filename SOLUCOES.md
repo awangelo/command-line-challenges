@@ -43,3 +43,4 @@
 43. find . -maxdepth 1 -type f | wc -l
 44. find . -mindepth 1 -maxdepth 1 -type d | wc -l
 45. find . -type f -name "*deleteme*" -delete
+46. sed -i 's/old/new/' $(grep -rl ...)
