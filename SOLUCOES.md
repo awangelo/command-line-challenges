@@ -47,3 +47,4 @@
 47. sed 's/,/|/g' people.csv > people_pipe.csv
 48. find bunch_of_files/ -type f -exec md5sum {} + | grep $(md5sum bunch_of_files/file001.rand | cut -d ' ' -f 1)
 49. touch supercalifragilisticexpialidocious.txt && rm $_
+50. touch {a..c}-{1..3}.txt
