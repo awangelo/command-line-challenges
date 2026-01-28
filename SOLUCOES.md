@@ -45,3 +45,4 @@
 45. find . -type f -name "*deleteme*" -delete
 46. sed -i 's/old/new/' $(grep -rl ...)
 47. sed 's/,/|/g' people.csv > people_pipe.csv
+48. find bunch_of_files/ -type f -exec md5sum {} + | grep $(md5sum bunch_of_files/file001.rand | cut -d ' ' -f 1)
